@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.content{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.calculator-body{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 600px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 4px 10px;
+}
+.container-top{
+    display: grid;
+    background-color: rgb(17, 202, 60);
+    padding: 10px;
+    grid-template-rows: 1fr 2fr;
+}
+.container-bottom{
+    display: grid;
+    color: azure;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.calculator-button{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.operation{
+    background-color: rgb(148, 37, 252);
+}
+.number{
+    background-color: rgb(57, 57, 57);
+}
+.delete{
+    background-color: rgb(57, 57, 57);
+}
+.equals{
+    background-color: rgb(249, 190, 28);
+}
+.del{
+    background-color: rgb(148, 37, 252);
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+.display{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: auto;
+
+}
+#calculator-button:hover{
+    opacity: 0.8;
+}
